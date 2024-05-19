@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom/client'
 import NavBar from './NavBar'
 import Card from './Card'
 import HeaderCard from './HeaderCard'
+import Footer from './Footer'
+
+
 
 //import './index.css'
 
@@ -11,7 +14,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <NavBar />
     <HeaderCard />
     <Card />
-    
+    <Footer />
   </React.StrictMode>,
 )
 

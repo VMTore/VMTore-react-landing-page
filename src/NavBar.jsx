@@ -33,14 +33,14 @@ const NavBar = (props) => {
                     </a>
                   <ul className="dropdown-menu">
                     <li><a className="dropdown-item" href="#">Send us an email</a></li>
-                    <li><a className="dropdown-item" href="#">LinkedIn</a></li>
-                    <li><a className="dropdown-item" href="#">Instagram</a></li>
+                    <li><a className="dropdown-item" href="https://www.linkedin.com/in/veronica-marin-tore/" target="_blank">LinkedIn</a></li>
+                    <li><a className="dropdown-item" href="https://github.com/VMTore" target="_blank">GitHub</a></li>
                   </ul>
                   </li>
                 </ul>
               </div>
-          </div>
-       </nav>
+           </div>
+        </nav>
     </>
   )
 };
