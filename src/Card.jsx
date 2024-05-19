@@ -3,9 +3,9 @@ import React from "react";
 
 const Card = (props) => {
     return (
-    <div className="row  row-cols mt-4 p-4 mx-0">
-        <div className="col">
-                <div className="card h-100">
+    <div className="row  row-cols-lg-4 row-cols-md-2 row-cols-sm-1 mt-4 p-4 mx-0">
+        <div className="col mb-4">
+                <div className="card h-100 w-100">
                     <img src="https://content.nationalgeographic.com.es/medio/2022/07/28/roots-of-lyngen_03dbacb8_800x800.jpg" className="card-img-top" alt="..." />
                     <div className="card-body">
                         <h5 className="card-title">Card title</h5>
@@ -15,8 +15,8 @@ const Card = (props) => {
                     
                 </div>
         </div>
-        <div className="col">
-                <div className="card h-100">
+        <div className="col mb-4">
+                <div className="card h-100 w-100">
                     <img src="https://content.nationalgeographic.com.es/medio/2021/10/02/ghost_4b27d58d_800x800.jpg" className="card-img-top" alt="..." />
                     <div className="card-body">
                         <h5 className="card-title">Card title</h5>
@@ -25,8 +25,8 @@ const Card = (props) => {
                     </div>
                 </div>
         </div>
-        <div className="col">
-                <div className="card h-100">
+        <div className="col mb-4">
+                <div className="card h-100 w-100">
                     <img src="https://content.nationalgeographic.com.es/medio/2024/01/18/parque-nacional-de-las-puertas-del-artico_d858be61_240118132530_800x800.jpg" className="card-img-top" alt="..." />
                     <div className="card-body">
                         <h5 className="card-title">Card title</h5>
@@ -35,8 +35,8 @@ const Card = (props) => {
                     </div>
                 </div>
         </div>
-        <div className="col">
-                <div className="card h-100">
+        <div className="col mb-4">
+                <div className="card h-100 w-100">
                     <img src="https://content.nationalgeographic.com.es/medio/2024/03/15/canon-del-parque-nacional-de-zion-utah_3a537630_240315124915_800x800.jpg" className="card-img-top" alt="..." />
                     <div className="card-body">
                         <h5 className="card-title">Card title</h5>
