@@ -19,12 +19,6 @@ const Card = (props) => {
 )
 }
 
-Card.propTypes = {
-    image:PropTypes.string.isRequired,
-    title:PropTypes.string.isRequired,
-    text:PropTypes.string,
-}
-
 export default Card;
 
 
