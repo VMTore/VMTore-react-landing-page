@@ -5,8 +5,8 @@ import Card from './Card'
 import HeaderCard from './HeaderCard'
 import Footer from './Footer'
 import Container from './Container'
+import './index.css'
 
-//import './index.css'
 const brandOne = "Start Bootstrap";
 const brandTwo = "Start Tailwind";
 const brandThree = "Start CSS";

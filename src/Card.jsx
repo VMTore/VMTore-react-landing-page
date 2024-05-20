@@ -25,9 +25,6 @@ Card.propTypes = {
     text:PropTypes.string,
 }
 
-
-
-
 export default Card;
 
 

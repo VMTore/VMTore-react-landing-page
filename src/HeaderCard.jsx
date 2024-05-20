@@ -1,7 +1,7 @@
 import React from "react";
 
 
-const HeaderCard = (props) => {
+const HeaderCard = () => {
     return (
 
     <div className="card row-cols mt-4 mx-5">
