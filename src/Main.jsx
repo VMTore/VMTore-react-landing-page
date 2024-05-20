@@ -4,16 +4,15 @@ import NavBar from './NavBar'
 import Card from './Card'
 import HeaderCard from './HeaderCard'
 import Footer from './Footer'
+import Container from './Container'
 
-
-
-//import './index.css'
+import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <NavBar />
     <HeaderCard />
-    <Card />
+    <Container />
     <Footer />
   </React.StrictMode>,
 )
