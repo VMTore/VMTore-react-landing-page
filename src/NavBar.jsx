@@ -6,13 +6,15 @@ import React from "react";
 import PropTypes from "prop-types"
 
 const NavBar = (props) => {
+
+
   
   return (
     <>
        <nav className="navbar-expand-md navbar bg-dark sticky-top" data-bs-theme="dark">
           <div className="container-fluid" style={{padding: "none"}}>
-              <a className="navbar-brand" href="https://getbootstrap.com/" target="_blank">
-                Start Bootstrap</a>
+              <a className="navbar-brand" href="https://getbootstrap.com/" target="_blank">{props.brand}
+              </a>
               <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
               </button>
@@ -45,9 +47,9 @@ const NavBar = (props) => {
   )
 };
 
-/*NavBar.propTypes = {
+NavBar.propTypes = {
   brand:PropTypes.string.isRequired,
 
-}*/
+}
 
 export default NavBar;
