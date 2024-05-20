@@ -12,8 +12,8 @@ const Container = (props) => {
 
     return (
             <div className="container-fluid">
-                <div className="row-col-md-3">
-                    <div className="col-md-3 col-sm-6 mx-0">
+                <div className="row">
+                    <div className="col-md-4 col-sm-6">
                         <Card image = {ImageOne} title = "Wild Nature"/>
                         <Card image = {ImageTwo} title = "The Quiet Lady"/>
                         <Card image = {ImageThree} title = "Drawing Dreams"/>

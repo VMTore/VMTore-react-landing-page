@@ -5,7 +5,7 @@ const Card = (props) => {
     return (
     <div className="mt-4">
         <div className="col md-3 sm-6 mb-4">
-                <div className="card h-100 w-100 d-flex" style={{border:"outset"}}>
+                <div className="card d-flex flex-column" style={{border:"outset"}}>
                     <img src={props.image} className="card-img-top" alt="..." />
                     <div className="card-body d-flex flex-column">
                         <h4 className="card-title d-flex justify-content-center">{props.title}</h4>
