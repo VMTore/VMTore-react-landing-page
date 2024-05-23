@@ -3,7 +3,7 @@ import NavBar from "./components/NavBar";
 import Card from './components/Card'
 import HeaderCard from './components/HeaderCard'
 import Footer from './components/Footer'
-import Container from './components/Container'
+import CardsContainer from './components/CardsContainer'
 import './index.css'
 
 const Page = () => {
@@ -15,7 +15,7 @@ const Page = () => {
         <div>
             <NavBar brand= {brandOne} />
             <HeaderCard />
-            <Container />
+            <CardsContainer />
             <Footer />
         </div>
     )

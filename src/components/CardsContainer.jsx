@@ -3,7 +3,7 @@ import Card from "./Card";
 import PropTypes from "prop-types";
 
 
-const Container = () => {
+const CardsContainer = () => {
     
     const ImageOne = "https://content.nationalgeographic.com.es/medio/2022/07/28/roots-of-lyngen_03dbacb8_800x800.jpg";
     const ImageTwo = "https://content.nationalgeographic.com.es/medio/2021/10/02/ghost_4b27d58d_800x800.jpg";
@@ -29,4 +29,4 @@ const Container = () => {
         title:PropTypes.string.isRequired,
     }
     
-export default Container;
+export default CardsContainer;
